@@ -19,6 +19,6 @@ public class Administrador
     
     [Required]
     [StringLength(10)]
-    public string Prefil { get; set; }
+    public string Perfil { get; set; }
 
 }

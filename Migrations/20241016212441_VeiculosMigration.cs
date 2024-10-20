@@ -13,13 +13,13 @@ namespace MinhaMinimalAPI.Migrations
         {
             migrationBuilder.UpdateData(
                 table: "Administradores",
-                keyColumn: "Prefil",
+                keyColumn: "Perfil",
                 keyValue: null,
-                column: "Prefil",
+                column: "Perfil",
                 value: "");
 
             migrationBuilder.AlterColumn<string>(
-                name: "Prefil",
+                name: "Perfil",
                 table: "Administradores",
                 type: "varchar(10)",
                 maxLength: 10,
@@ -57,7 +57,7 @@ namespace MinhaMinimalAPI.Migrations
                 name: "Veiculos");
 
             migrationBuilder.AlterColumn<string>(
-                name: "Prefil",
+                name: "Perfil",
                 table: "Administradores",
                 type: "varchar(10)",
                 maxLength: 10,

@@ -31,7 +31,7 @@ namespace MinhaMinimalAPI.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("varchar(250)");
 
-                    b.Property<string>("Prefil")
+                    b.Property<string>("Perfil")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("varchar(10)");
@@ -50,7 +50,7 @@ namespace MinhaMinimalAPI.Migrations
                         {
                             Id = 1,
                             Email = "administrador@teste.com",
-                            Prefil = "Adm",
+                            Perfil = "Adm",
                             Senha = "123456"
                         });
                 });

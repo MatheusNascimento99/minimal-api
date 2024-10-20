@@ -16,7 +16,7 @@ public class DbContexto : DbContext
                 Id = 1,
                 Email = "administrador@teste.com",
                 Senha = "123456",
-                Prefil = "Adm",
+                Perfil = "Adm",
             }
         );
     }

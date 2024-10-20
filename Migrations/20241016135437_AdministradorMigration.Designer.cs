@@ -31,7 +31,7 @@ namespace MinhaMinimalAPI.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("varchar(250)");
 
-                    b.Property<string>("Prefil")
+                    b.Property<string>("Perfil")
                         .HasMaxLength(10)
                         .HasColumnType("varchar(10)");
 
